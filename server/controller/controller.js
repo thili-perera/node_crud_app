@@ -90,7 +90,7 @@ Userdb.findByIdAndUpdate(id,req.body,{useFindAndModify:false})
         res.status(500).send({message:"Error update user information"})
     })
 }
-//update user
+//delete user
 exports.delete = (req,res)=>{
     const id = req.params.id;
 
